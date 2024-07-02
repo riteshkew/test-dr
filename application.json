@@ -1,5 +1,18 @@
 {
   "appIsExample": false,
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
   "color": "#F4FFDE",
@@ -41,16 +54,6 @@
       "isDefault": false
     },
     {
-      "baseId": "Car showroom",
-      "id": "Car showroom",
-      "isDefault": false
-    },
-    {
-      "baseId": "Calendar Mobile",
-      "id": "Calendar Mobile",
-      "isDefault": false
-    },
-    {
       "baseId": "Page1",
       "id": "Page1",
       "isDefault": true
@@ -61,11 +64,6 @@
       "isDefault": false
     },
     {
-      "baseId": "Public.account",
-      "id": "Public.account",
-      "isDefault": false
-    },
-    {
       "baseId": "Public.address",
       "id": "Public.address",
       "isDefault": false
@@ -73,11 +71,6 @@
     {
       "baseId": "Aad",
       "id": "Aad",
-      "isDefault": false
-    },
-    {
-      "baseId": "Aad2",
-      "id": "Aad2",
       "isDefault": false
     },
     {
@@ -95,5 +88,18 @@
       "id": "5K Series",
       "isDefault": false
     }
-  ]
+  ],
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  }
 }
