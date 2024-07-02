@@ -23,7 +23,7 @@
     }
   },
   "columnOrder": [
-    "customColumn1",
+    "id",
     "vin",
     "make",
     "model",
@@ -31,7 +31,8 @@
     "interval",
     "last_service_date",
     "last_service_notes",
-    "next_service_due"
+    "next_service_due",
+    "customColumn1"
   ],
   "columnSizeMap": {
     "customColumn1": 133,
@@ -127,6 +128,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -180,6 +184,25 @@
       "menuButtonLabel": "{{Table1.sanitizedTableData.map((currentRow) => ( 'Open Menu'))}}",
       "menuColor": "#03B365",
       "textColor": "{{Table1.sanitizedTableData.map((currentRow) => (  currentRow.next_service_due < JSObject1.service_due() ?  \"#dc2626\": \"#15803d\"  ))}}",
+      "width": 150
+    },
+    "id": {
+      "cellBackground": "#FFFFFF",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.id))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "id",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
       "width": 150
     },
     "interval": {
