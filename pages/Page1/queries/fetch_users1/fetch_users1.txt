@@ -1,0 +1,7 @@
+SELECT * FROM user_data 
+WHERE name ILIKE '{{"%" + (tbl_usersCopy1.searchText || "") + "%"}}'
+AND dob >= '{{dat_bornAfterCopy1.selectedDate}}'
+{{sel_country_filter.selectedOptionValue !== "" ? "AND country = '" + sel_country_filter.selectedOptionValue + "'" : ""}}
+ORDER BY id
+OFFSET {{tbl_usersCopy1.pageOffset}}
+LIMIT {{tbl_usersCopy1.pageSize - 1}} 

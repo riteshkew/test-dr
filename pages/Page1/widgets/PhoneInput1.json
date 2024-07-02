@@ -5,7 +5,7 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 45,
+  "bottomRow": 415,
   "boxShadow": "none",
   "defaultDialCode": "+1",
   "defaultText": "",
@@ -34,7 +34,7 @@
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 40,
+  "leftColumn": 55,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -50,13 +50,15 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
+  "originalBottomRow": 415,
+  "originalTopRow": 408,
   "parentColumnSpace": 11.578125,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 64,
   "searchTags": [
     "call"
   ],
@@ -64,7 +66,7 @@
     "Inputs"
   ],
   "thumbnailSVG": "/static/media/thumbnail.56a649533a64f5ed11640a74c51360fc.svg",
-  "topRow": 38,
+  "topRow": 408,
   "type": "PHONE_INPUT_WIDGET",
   "version": 1,
   "widgetId": "1n31m6ucd2",

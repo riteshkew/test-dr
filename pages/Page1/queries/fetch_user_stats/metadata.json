@@ -1,5 +1,4 @@
 {
-  "baseIdOrFallback": "Page1_fetch_user_stats",
   "gitSyncId": "6683ef399b6fb8549195213d_916bd0b5-37b2-444b-b82e-d026921f86a9",
   "id": "Page1_fetch_user_stats",
   "pluginId": "postgres-plugin",

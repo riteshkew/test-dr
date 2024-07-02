@@ -1,0 +1,2 @@
+DELETE FROM aad
+  WHERE PersonID = {{data_table.triggeredRow.PersonID}};

@@ -1,0 +1,8 @@
+UPDATE a SET
+		LastName = '{{update_form.fieldState.LastName.isVisible ? update_form.formData.LastName : update_form.sourceData.LastName}}',
+		attendence = '{{update_form.fieldState.attendence.isVisible ? update_form.formData.attendence : update_form.sourceData.attendence}}',
+    salary = '{{update_form.fieldState.salary.isVisible ? update_form.formData.salary : update_form.sourceData.salary}}',
+		joiningdate = '{{update_form.fieldState.joiningdate.isVisible ? update_form.formData.joiningdate : update_form.sourceData.joiningdate}}',
+		logindateandtime = '{{update_form.fieldState.logindateandtime.isVisible ? update_form.formData.logindateandtime : update_form.sourceData.logindateandtime}}',
+		gross = '{{update_form.fieldState.gross.isVisible ? update_form.formData.gross : update_form.sourceData.gross}}'
+WHERE PersonID = {{data_table.selectedRow.PersonID}};

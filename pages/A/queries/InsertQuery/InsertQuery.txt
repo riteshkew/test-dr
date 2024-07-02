@@ -1,0 +1,16 @@
+INSERT INTO a (
+	PersonID,
+	LastName,
+	attendence,
+	salary,
+	joiningdate,
+	logindateandtime,
+	gross)
+VALUES (
+	'{{insert_form.formData.PersonID}}',
+	'{{insert_form.formData.LastName}}',
+	'{{insert_form.formData.attendence}}',
+	'{{insert_form.formData.salary}}',
+	'{{insert_form.formData.joiningdate}}',
+	'{{insert_form.formData.logindateandtime}}',
+	'{{insert_form.formData.gross}}');
